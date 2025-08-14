@@ -1,4 +1,3 @@
-// src/components/pages/BoardPage.jsx
 import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import "./BoardPage.css";

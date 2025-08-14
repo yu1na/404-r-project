@@ -14,7 +14,7 @@ export default function Navbar() {
 
         <nav className="nav-links" aria-label="주요 메뉴">
           <NavLink to="/approvals"  className={linkClass}>결재</NavLink>
-          <NavLink to="/archive"    className={linkClass}>문서보관</NavLink>
+          <NavLink to="/BoardPage"    className={linkClass}>문서보관</NavLink>
           <NavLink to="/reports"    className={linkClass}>업무보고</NavLink>
           <NavLink to="/messenger"  className={linkClass}>메신저</NavLink>
           <NavLink to="/calendars"  className={linkClass}>일정</NavLink>

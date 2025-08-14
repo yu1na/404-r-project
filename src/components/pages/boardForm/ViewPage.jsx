@@ -33,9 +33,11 @@ const ViewPage = () => {
           </tr>
           <tr>
             <td colSpan="2" className="button-row">
+              <div class="d-flex gap-3">
               <Button variant="primary">수정</Button>
               <Button variant="secondary">삭제</Button>
               <Button variant="info">목록</Button>
+              </div>
             </td>
           </tr>
         </tbody>

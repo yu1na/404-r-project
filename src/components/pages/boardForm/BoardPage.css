@@ -15,7 +15,7 @@
 .hero {
   position: relative;
   height: 220px;
-  background-image: url("/src/flight.png"); /* 이미지를 여기에 두세요 */
+  background-image: url("public/Generated.png"); /* 이미지를 여기에 두세요 */
   background-size: cover;
   background-position: center;
   display: grid;
@@ -51,6 +51,10 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   height: 36px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .toolbar__select {
   padding: 0 10px;
